@@ -12,6 +12,7 @@ public class PlaceService {
     private PlaceRepository place;
     public List<Place> allPlaces ()
     {
+        System.out.println("Oah");
         return place.findAll();
     }
 }
