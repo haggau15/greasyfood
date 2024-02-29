@@ -40,6 +40,7 @@ Comments.py makes a call to the google maps api to get all resturants with takea
 
 
 User stories:
+
 -I want to be able to find places with bad food when I’m, out drinking
 
 -I want to be able to sort the resturants in various ways depending on what I want
