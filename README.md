@@ -1,4 +1,4 @@
-How to run project
+How to run project:
 
 Springboot project:
 Running mvn install should get all dependencies. Java 17 is necessary for it to work.
@@ -16,6 +16,11 @@ I start it by clicking run on the filter.py file
 python-datacollector (called python project):
 A queue called queue needs to be added in rabbitmq which is can be done at http://localhost:15672/. To be able to access rabbitmq in the browser, the command "rabbitmq-plugins enable rabbitmq_management" needs to be run in the console. Only receive.py is run for this project so pip install pika needs to be run for that file.
 Python 3.12.1 was used for this project.
+
+
+
+
+
 
 Overview of the project:
 The point of the project is to not only be able to find fast food places from the ones that get a high score by users but also see what's at the other end, and from what people say in the reviews.
