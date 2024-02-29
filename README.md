@@ -23,6 +23,9 @@ I start it by clicking run on the filter.py file
 python-datacollector (called python project):
 A queue called queue needs to be added in rabbitmq which is can be done at http://localhost:15672/. To be able to access rabbitmq in the browser, the command "rabbitmq-plugins enable rabbitmq_management" needs to be run in the console. Only receive.py is run for this project so pip install pika needs to be run for that file.
 Python 3.12.1 was used for this project.
+And rabbitmq needs to be running for this script to work.
+
+It should work to start these in any order but the safest is springboot, receive.py, python.filter and then react.
 
 
 
