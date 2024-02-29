@@ -46,3 +46,14 @@ User stories:
 -I want to be able to sort the resturants in various ways depending on what I want
 
 -I want to be able to send a request for more locations covered
+
+
+
+
+
+
+![Class diagram](https://github.com/haggau15/greasyfood/assets/18140390/29420148-4e79-44e8-97fe-7be342ba3ef5)
+
+
+
+
