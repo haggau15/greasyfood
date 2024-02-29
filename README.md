@@ -18,6 +18,8 @@ A queue called queue needs to be added in rabbitmq which is can be done at http:
 Python 3.12.1 was used for this project.
 
 Overview of the project:
+The point of the project is to not only be able to find fast food places from the ones that get a high score by users but also see what's at the other end, and from what people say in the reviews.
+It consists of 4 services, one in react, one in springboot and two in python.
 
 The springboot project acts a central untit. It fetches data from the db which the frontend can get. 
 The asnynchronous call the frontend can make for more data to the datacollector script (receive.py) goes via an endpoint in this project.
