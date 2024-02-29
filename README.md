@@ -1,3 +1,10 @@
+Links to all repos
+https://github.com/haggau15/greasyfood/
+https://github.com/haggau15/react-frontend
+https://github.com/haggau15/python-datacollector/tree/main
+https://github.com/haggau15/filter
+
+
 How to run project:
 
 Springboot project:
@@ -54,6 +61,8 @@ User stories:
 
 ![Class diagram](https://github.com/haggau15/greasyfood/assets/18140390/29420148-4e79-44e8-97fe-7be342ba3ef5)
 
+During the making of the project, I simply fell short on time and a lot had to be cut. I didn't have too may exectations going in but I was surprised at the level of attention to detail that was necessary. Most  of the time spent was getting the basics of what I planned up and running. Things I assumed wasn't too time consuming to do kept giving me surprises. For instance, figuring out I need CORS to make other programs be able to connect to it's endpoints, needing to run a script before being able to access rabbitmq in the browser. Figuring out what versions I needed for the libriaries I used  was also a big one. Getting eveything to communicate together was a new experience to me. Working with an existing and working API is a lot easier than making them all yourself from scratch.
 
+I don't think I've deviated from the core architechture in the arbeidskrav but I probably underestimated at the time how many services I would need to implement everything I wanted to if I were to follow microservice principles.
 
 
